@@ -1,0 +1,22 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <clockList>
+        <clock default="false" name="default" period="3.33"/>
+    </clockList>
+    <config>
+        <config_export format="xo" output="sobel.xo"/>
+    </config>
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="sobel_hls"/>
+    </project>
+    <targetInfo>
+        <TargetInfo value="xcu280:-fsvh2892:-2L-e"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/virtexuplus/virtexuplus" name="DefaultPlatform"/>
+    </libraryList>
+    <flowTarget value="vivado"/>
+</AutoPilot:solution>
+

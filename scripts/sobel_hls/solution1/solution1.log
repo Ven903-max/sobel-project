@@ -1,0 +1,525 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 3.33 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [HLS 200-627] Cannot find C test bench. Please specify test bench files using 'add_files -tb'.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.07 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.11 seconds; current allocated memory: 0.000 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1510] Running: create_clock -period 3.33 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 300.727 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/sobel.cpp' ... 
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:38:27)
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:39:38)
+ERROR: [HLS 207-3776] use of undeclared identifier 'abs' (../src/sobel.cpp:71:24)
+ERROR: [HLS 207-3776] use of undeclared identifier 'abs' (../src/sobel.cpp:71:34)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0.8 seconds. CPU system time: 0.34 seconds. Elapsed time: 5.6 seconds; current allocated memory: 0.395 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1510] Running: create_clock -period 3.33 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.05 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.08 seconds; current allocated memory: 300.727 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/sobel.cpp' ... 
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:38:27)
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:39:38)
+ERROR: [HLS 207-2972] no member named 'abs' in namespace 'hls' (../src/sobel.cpp:71:28)
+ERROR: [HLS 207-2972] no member named 'abs' in namespace 'hls' (../src/sobel.cpp:71:43)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0.6 seconds. CPU system time: 0.27 seconds. Elapsed time: 0.93 seconds; current allocated memory: 0.430 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1510] Running: create_clock -period 3.33 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 300.727 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/sobel.cpp' ... 
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:38:27)
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:39:38)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3.1 seconds. CPU system time: 0.52 seconds. Elapsed time: 4.16 seconds; current allocated memory: 0.426 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1510] Running: create_clock -period 3.33 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.08 seconds; current allocated memory: 300.727 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/sobel.cpp' ... 
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:37:27)
+ERROR: [HLS 207-2359] conditional expression is ambiguous; 'int' can be converted to 'pixel_t' (aka 'ap_uint<8>') and vice versa (../src/sobel.cpp:38:38)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0.64 seconds. CPU system time: 0.26 seconds. Elapsed time: 0.94 seconds; current allocated memory: 0.426 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1510] Running: create_clock -period 3.33 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 300.727 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/sobel.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../src/kernel.cpp' ... 
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region (../src/kernel.cpp:14:9)
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file ../src/kernel.cpp
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.81 seconds. CPU system time: 1.51 seconds. Elapsed time: 10.57 seconds; current allocated memory: 302.020 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 390 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 250 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 193 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 169 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 169 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 180 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 170 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 167 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 178 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'in' for cosimulation. (../src/kernel.cpp:4:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'out' for cosimulation. (../src/kernel.cpp:4:0)
+INFO: [HLS 214-291] Loop 'Compute' is marked as complete unroll implied by the pipeline pragma (../src/sobel.cpp:71:13)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_72_1' is marked as complete unroll implied by the pipeline pragma (../src/sobel.cpp:72:34)
+INFO: [HLS 214-186] Unrolling loop 'Compute' (../src/sobel.cpp:71:13) in function 'sobel_filter' completely with a factor of 3 (../src/sobel.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_72_1' (../src/sobel.cpp:72:34) in function 'sobel_filter' completely with a factor of 3 (../src/sobel.cpp:6:0)
+INFO: [HLS 214-248] Applying array_partition to 'linebuf': Complete partitioning on dimension 1. (../src/sobel.cpp:25:13)
+INFO: [HLS 214-115] Multiple burst reads of length 262144 and bit width 8 in loop 'LoadLoop'(../src/kernel.cpp:18:5) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/kernel.cpp:18:9)
+INFO: [HLS 214-115] Multiple burst writes of length 262144 and bit width 8 in loop 'StoreLoop'(../src/kernel.cpp:30:5) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/kernel.cpp:30:9)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.4 seconds. CPU system time: 0.73 seconds. Elapsed time: 14.33 seconds; current allocated memory: 303.910 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 303.910 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.76 seconds; current allocated memory: 304.195 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 304.262 MB.
+INFO: [XFORM 203-721] Changing loop 'Loop_LoadLoop_proc' (../src/kernel.cpp:18) to a process function for dataflow in function 'sobel_accel'.
+INFO: [XFORM 203-721] Changing loop 'Loop_StoreLoop_proc' (../src/kernel.cpp:30) to a process function for dataflow in function 'sobel_accel'.
+INFO: [XFORM 203-712] Applying dataflow to function 'sobel_accel' (../src/kernel.cpp:4:1), detected/extracted 4 process function(s): 
+	 'entry_proc'
+	 'Loop_LoadLoop_proc'
+	 'sobel_filter'
+	 'Loop_StoreLoop_proc'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/sobel.cpp:35:9) to (../src/sobel.cpp:62:23) in function 'sobel_filter'... converting 5 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'sobel_filter' (../src/sobel.cpp:25:9)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.11 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.22 seconds; current allocated memory: 326.344 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'RowLoop'(../src/sobel.cpp:32:5) and 'ColLoop'(../src/sobel.cpp:34:9) in function 'sobel_filter' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'StoreLoop'(../src/kernel.cpp:30:5) and 'VITIS_LOOP_31_2'(../src/kernel.cpp:31:26) in function 'Loop_StoreLoop_proc' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'LoadLoop'(../src/kernel.cpp:18:5) and 'VITIS_LOOP_19_1'(../src/kernel.cpp:19:26) in function 'Loop_LoadLoop_proc' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'RowLoop' (../src/sobel.cpp:32:5) in function 'sobel_filter'.
+INFO: [XFORM 203-541] Flattening a loop nest 'StoreLoop' (../src/kernel.cpp:30:5) in function 'Loop_StoreLoop_proc'.
+INFO: [XFORM 203-541] Flattening a loop nest 'LoadLoop' (../src/kernel.cpp:18:5) in function 'Loop_LoadLoop_proc'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.07 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.28 seconds; current allocated memory: 356.020 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sobel_accel' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.88 seconds; current allocated memory: 356.387 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 356.461 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Loop_LoadLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LoadLoop_VITIS_LOOP_19_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'LoadLoop_VITIS_LOOP_19_1'
+WARNING: [HLS 200-871] Estimated clock period (2.527 ns) exceeds the target (target clock period: 3.330 ns, clock uncertainty: 0.899 ns, effective delay budget: 2.431 ns).
+WARNING: [HLS 200-1016] The critical path in module 'Loop_LoadLoop_proc' consists of the following:
+	'store' operation 0 bit ('c_write_ln19', ../src/kernel.cpp:19) of constant 0 on local variable 'c', ../src/kernel.cpp:19 [11]  (0.387 ns)
+	'load' operation 10 bit ('c_load', ../src/kernel.cpp:19) on local variable 'c', ../src/kernel.cpp:19 [26]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln19', ../src/kernel.cpp:19) [31]  (0.725 ns)
+	'select' operation 10 bit ('select_ln18', ../src/kernel.cpp:18) [32]  (0.303 ns)
+	'add' operation 10 bit ('add_ln19', ../src/kernel.cpp:19) [43]  (0.725 ns)
+	'store' operation 0 bit ('c_write_ln19', ../src/kernel.cpp:19) of variable 'add_ln19', ../src/kernel.cpp:19 on local variable 'c', ../src/kernel.cpp:19 [46]  (0.387 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 357.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 357.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'RowLoop_ColLoop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, loop 'RowLoop_ColLoop'
+WARNING: [HLS 200-871] Estimated clock period (2.639 ns) exceeds the target (target clock period: 3.330 ns, clock uncertainty: 0.899 ns, effective delay budget: 2.431 ns).
+WARNING: [HLS 200-1016] The critical path in module 'sobel_filter' consists of the following:
+	'store' operation 0 bit ('r_write_ln32', ../src/sobel.cpp:32) of constant 0 on local variable 'r', ../src/sobel.cpp:32 [15]  (0.387 ns)
+	'load' operation 10 bit ('r_load', ../src/sobel.cpp:32) on local variable 'r', ../src/sobel.cpp:32 [28]  (0.000 ns)
+	'add' operation 10 bit ('add_ln32', ../src/sobel.cpp:32) [29]  (0.725 ns)
+	'select' operation 10 bit ('select_ln32_1', ../src/sobel.cpp:32) [34]  (0.303 ns)
+	'icmp' operation 1 bit ('icmp28', ../src/sobel.cpp:32) [39]  (0.715 ns)
+	'or' operation 1 bit ('or_ln62', ../src/sobel.cpp:62) [58]  (0.122 ns)
+	multiplexor before 'phi' operation 8 bit ('storemerge', ../src/sobel.cpp:85) with incoming values : ('select_ln85', ../src/sobel.cpp:85) [107]  (0.387 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 359.219 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 359.219 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Loop_StoreLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'StoreLoop_VITIS_LOOP_31_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'StoreLoop_VITIS_LOOP_31_2'
+WARNING: [HLS 200-871] Estimated clock period (2.527 ns) exceeds the target (target clock period: 3.330 ns, clock uncertainty: 0.899 ns, effective delay budget: 2.431 ns).
+WARNING: [HLS 200-1016] The critical path in module 'Loop_StoreLoop_proc' consists of the following:
+	'store' operation 0 bit ('c_write_ln31', ../src/kernel.cpp:31) of constant 0 on local variable 'c', ../src/kernel.cpp:31 [12]  (0.387 ns)
+	'load' operation 10 bit ('c_load', ../src/kernel.cpp:31) on local variable 'c', ../src/kernel.cpp:31 [29]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln31', ../src/kernel.cpp:31) [35]  (0.725 ns)
+	'select' operation 10 bit ('select_ln30', ../src/kernel.cpp:30) [36]  (0.303 ns)
+	'add' operation 10 bit ('add_ln31', ../src/kernel.cpp:31) [48]  (0.725 ns)
+	'store' operation 0 bit ('c_write_ln31', ../src/kernel.cpp:31) of variable 'add_ln31', ../src/kernel.cpp:31 on local variable 'c', ../src/kernel.cpp:31 [57]  (0.387 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 359.262 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 359.262 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sobel_accel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 359.566 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 359.566 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'entry_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 359.566 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Loop_LoadLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'Loop_LoadLoop_proc' pipeline 'LoadLoop_VITIS_LOOP_19_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Loop_LoadLoop_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 359.766 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'sobel_filter' pipeline 'RowLoop_ColLoop' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sobel_filter'.
+INFO: [RTMG 210-278] Implementing memory 'sobel_accel_sobel_filter_linebuf_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.31 seconds; current allocated memory: 361.535 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Loop_StoreLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'Loop_StoreLoop_proc' pipeline 'StoreLoop_VITIS_LOOP_31_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Loop_StoreLoop_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.11 seconds; current allocated memory: 364.008 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sobel_accel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_accel/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_accel/in_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_accel/out_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sobel_accel' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'in_r', 'out_r' and 'return' to AXI-Lite port control.
+WARNING: [HLS 200-656] Deadlocks can occur since process Loop_LoadLoop_proc is instantiated in a dataflow region with ap_ctrl_none or without start propagation and contains an auto-rewind pipeline.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sobel_accel'.
+INFO: [HLS 200-741] Implementing PIPO sobel_accel_in_img_RAM_AUTO_1R1W using a single memory for all blocks
+INFO: [RTMG 210-278] Implementing memory 'sobel_accel_in_img_RAM_AUTO_1R1W_memcore' using auto RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'out_r_c_U(sobel_accel_fifo_w64_d4_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.65 seconds; current allocated memory: 366.223 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.27 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.4 seconds; current allocated memory: 369.262 MB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.42 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.5 seconds; current allocated memory: 374.887 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sobel_accel.
+INFO: [VLOG 209-307] Generating Verilog RTL for sobel_accel.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 378.93 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 10.98 seconds. CPU system time: 2.45 seconds. Elapsed time: 29.78 seconds; current allocated memory: 74.250 MB.
+INFO: [HLS 200-1510] Running: export_design -format xo -output sobel.xo 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+ERROR: [HLS 200-1032] Solution configuration has changed (config_export -format xo), please rerun csynth_design.
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 2.184 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.33ns.
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=xo
+INFO: [HLS 200-1464] Running solution command: config_export -output=sobel.xo
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 271.168 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/sobel.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../src/kernel.cpp' ... 
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region (../src/kernel.cpp:14:9)
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file ../src/kernel.cpp
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.68 seconds. CPU system time: 1.34 seconds. Elapsed time: 7.16 seconds; current allocated memory: 273.648 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 390 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 250 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 193 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 169 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 169 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 180 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 170 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 164 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 167 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 178 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'in' for cosimulation. (../src/kernel.cpp:4:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'out' for cosimulation. (../src/kernel.cpp:4:0)
+INFO: [HLS 214-291] Loop 'Compute' is marked as complete unroll implied by the pipeline pragma (../src/sobel.cpp:71:13)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_72_1' is marked as complete unroll implied by the pipeline pragma (../src/sobel.cpp:72:34)
+INFO: [HLS 214-186] Unrolling loop 'Compute' (../src/sobel.cpp:71:13) in function 'sobel_filter' completely with a factor of 3 (../src/sobel.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_72_1' (../src/sobel.cpp:72:34) in function 'sobel_filter' completely with a factor of 3 (../src/sobel.cpp:6:0)
+INFO: [HLS 214-248] Applying array_partition to 'linebuf': Complete partitioning on dimension 1. (../src/sobel.cpp:25:13)
+INFO: [HLS 214-115] Multiple burst reads of length 262144 and bit width 8 in loop 'LoadLoop'(../src/kernel.cpp:18:5) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/kernel.cpp:18:9)
+INFO: [HLS 214-115] Multiple burst writes of length 262144 and bit width 8 in loop 'StoreLoop'(../src/kernel.cpp:30:5) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/kernel.cpp:30:9)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.93 seconds. CPU system time: 0.51 seconds. Elapsed time: 8.1 seconds; current allocated memory: 275.684 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 275.684 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 275.941 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 276.000 MB.
+INFO: [XFORM 203-721] Changing loop 'Loop_LoadLoop_proc' (../src/kernel.cpp:18) to a process function for dataflow in function 'sobel_accel'.
+INFO: [XFORM 203-721] Changing loop 'Loop_StoreLoop_proc' (../src/kernel.cpp:30) to a process function for dataflow in function 'sobel_accel'.
+INFO: [XFORM 203-712] Applying dataflow to function 'sobel_accel' (../src/kernel.cpp:4:1), detected/extracted 4 process function(s): 
+	 'entry_proc'
+	 'Loop_LoadLoop_proc'
+	 'sobel_filter'
+	 'Loop_StoreLoop_proc'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/sobel.cpp:35:9) to (../src/sobel.cpp:62:23) in function 'sobel_filter'... converting 5 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'sobel_filter' (../src/sobel.cpp:25:9)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 298.121 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'RowLoop'(../src/sobel.cpp:32:5) and 'ColLoop'(../src/sobel.cpp:34:9) in function 'sobel_filter' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'StoreLoop'(../src/kernel.cpp:30:5) and 'VITIS_LOOP_31_2'(../src/kernel.cpp:31:26) in function 'Loop_StoreLoop_proc' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'LoadLoop'(../src/kernel.cpp:18:5) and 'VITIS_LOOP_19_1'(../src/kernel.cpp:19:26) in function 'Loop_LoadLoop_proc' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'RowLoop' (../src/sobel.cpp:32:5) in function 'sobel_filter'.
+INFO: [XFORM 203-541] Flattening a loop nest 'StoreLoop' (../src/kernel.cpp:30:5) in function 'Loop_StoreLoop_proc'.
+INFO: [XFORM 203-541] Flattening a loop nest 'LoadLoop' (../src/kernel.cpp:18:5) in function 'Loop_LoadLoop_proc'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.06 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.09 seconds; current allocated memory: 328.023 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sobel_accel' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.06 seconds; current allocated memory: 328.387 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 328.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Loop_LoadLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LoadLoop_VITIS_LOOP_19_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'LoadLoop_VITIS_LOOP_19_1'
+WARNING: [HLS 200-871] Estimated clock period (2.527 ns) exceeds the target (target clock period: 3.330 ns, clock uncertainty: 0.899 ns, effective delay budget: 2.431 ns).
+WARNING: [HLS 200-1016] The critical path in module 'Loop_LoadLoop_proc' consists of the following:
+	'store' operation 0 bit ('c_write_ln19', ../src/kernel.cpp:19) of constant 0 on local variable 'c', ../src/kernel.cpp:19 [11]  (0.387 ns)
+	'load' operation 10 bit ('c_load', ../src/kernel.cpp:19) on local variable 'c', ../src/kernel.cpp:19 [26]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln19', ../src/kernel.cpp:19) [31]  (0.725 ns)
+	'select' operation 10 bit ('select_ln18', ../src/kernel.cpp:18) [32]  (0.303 ns)
+	'add' operation 10 bit ('add_ln19', ../src/kernel.cpp:19) [43]  (0.725 ns)
+	'store' operation 0 bit ('c_write_ln19', ../src/kernel.cpp:19) of variable 'add_ln19', ../src/kernel.cpp:19 on local variable 'c', ../src/kernel.cpp:19 [46]  (0.387 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 329.785 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 329.785 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'RowLoop_ColLoop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, loop 'RowLoop_ColLoop'
+WARNING: [HLS 200-871] Estimated clock period (2.639 ns) exceeds the target (target clock period: 3.330 ns, clock uncertainty: 0.899 ns, effective delay budget: 2.431 ns).
+WARNING: [HLS 200-1016] The critical path in module 'sobel_filter' consists of the following:
+	'store' operation 0 bit ('r_write_ln32', ../src/sobel.cpp:32) of constant 0 on local variable 'r', ../src/sobel.cpp:32 [15]  (0.387 ns)
+	'load' operation 10 bit ('r_load', ../src/sobel.cpp:32) on local variable 'r', ../src/sobel.cpp:32 [28]  (0.000 ns)
+	'add' operation 10 bit ('add_ln32', ../src/sobel.cpp:32) [29]  (0.725 ns)
+	'select' operation 10 bit ('select_ln32_1', ../src/sobel.cpp:32) [34]  (0.303 ns)
+	'icmp' operation 1 bit ('icmp28', ../src/sobel.cpp:32) [39]  (0.715 ns)
+	'or' operation 1 bit ('or_ln62', ../src/sobel.cpp:62) [58]  (0.122 ns)
+	multiplexor before 'phi' operation 8 bit ('storemerge', ../src/sobel.cpp:85) with incoming values : ('select_ln85', ../src/sobel.cpp:85) [107]  (0.387 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 331.238 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 331.238 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Loop_StoreLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'StoreLoop_VITIS_LOOP_31_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'StoreLoop_VITIS_LOOP_31_2'
+WARNING: [HLS 200-871] Estimated clock period (2.527 ns) exceeds the target (target clock period: 3.330 ns, clock uncertainty: 0.899 ns, effective delay budget: 2.431 ns).
+WARNING: [HLS 200-1016] The critical path in module 'Loop_StoreLoop_proc' consists of the following:
+	'store' operation 0 bit ('c_write_ln31', ../src/kernel.cpp:31) of constant 0 on local variable 'c', ../src/kernel.cpp:31 [12]  (0.387 ns)
+	'load' operation 10 bit ('c_load', ../src/kernel.cpp:31) on local variable 'c', ../src/kernel.cpp:31 [29]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln31', ../src/kernel.cpp:31) [35]  (0.725 ns)
+	'select' operation 10 bit ('select_ln30', ../src/kernel.cpp:30) [36]  (0.303 ns)
+	'add' operation 10 bit ('add_ln31', ../src/kernel.cpp:31) [48]  (0.725 ns)
+	'store' operation 0 bit ('c_write_ln31', ../src/kernel.cpp:31) of variable 'add_ln31', ../src/kernel.cpp:31 on local variable 'c', ../src/kernel.cpp:31 [57]  (0.387 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 331.250 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 331.250 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sobel_accel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 331.508 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 331.508 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'entry_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 331.508 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Loop_LoadLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'Loop_LoadLoop_proc' pipeline 'LoadLoop_VITIS_LOOP_19_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Loop_LoadLoop_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 331.785 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'sobel_filter' pipeline 'RowLoop_ColLoop' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sobel_filter'.
+INFO: [RTMG 210-278] Implementing memory 'sobel_accel_sobel_filter_linebuf_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 333.586 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Loop_StoreLoop_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'Loop_StoreLoop_proc' pipeline 'StoreLoop_VITIS_LOOP_31_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Loop_StoreLoop_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 336.090 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sobel_accel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_accel/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_accel/in_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_accel/out_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sobel_accel' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'in_r', 'out_r' and 'return' to AXI-Lite port control.
+WARNING: [HLS 200-656] Deadlocks can occur since process Loop_LoadLoop_proc is instantiated in a dataflow region with ap_ctrl_none or without start propagation and contains an auto-rewind pipeline.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sobel_accel'.
+INFO: [HLS 200-741] Implementing PIPO sobel_accel_in_img_RAM_AUTO_1R1W using a single memory for all blocks
+INFO: [RTMG 210-278] Implementing memory 'sobel_accel_in_img_RAM_AUTO_1R1W_memcore' using auto RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'out_r_c_U(sobel_accel_fifo_w64_d4_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 338.293 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.22 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.24 seconds; current allocated memory: 341.738 MB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.42 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.45 seconds; current allocated memory: 347.383 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sobel_accel.
+INFO: [VLOG 209-307] Generating Verilog RTL for sobel_accel.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 378.93 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 10.08 seconds. CPU system time: 2.01 seconds. Elapsed time: 16.95 seconds; current allocated memory: 76.500 MB.
+INFO: [HLS 200-1510] Running: export_design -format xo -output sobel.xo 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file sobel.xo
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 16.86 seconds. CPU system time: 3.7 seconds. Elapsed time: 114.1 seconds; current allocated memory: 6.133 MB.

@@ -1,0 +1,74 @@
+{
+    "1": {
+        "name": "sobel_filter",
+        "file": "..\/src\/sobel.cpp",
+        "fileloc": "4",
+        "instructions": "114",
+        "total_instructions": "114",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "12"
+        },
+        "stores": {
+            "L": "15"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "sobel_accel",
+        "file": "kernel.cpp",
+        "fileloc": "4",
+        "instructions": "21",
+        "total_instructions": "230",
+        "calls": "3 2 1 4",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "Loop_LoadLoop_proc",
+        "file": "..\/src\/kernel.cpp",
+        "fileloc": "4",
+        "instructions": "41",
+        "total_instructions": "41",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "7"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "entry_proc",
+        "file": "kernel.cpp",
+        "fileloc": "0",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "Loop_StoreLoop_proc",
+        "file": "..\/src\/kernel.cpp",
+        "fileloc": "30",
+        "instructions": "50",
+        "total_instructions": "50",
+        "calls": "",
+        "basicblocks": "8",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "7"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Nov 21 01:08:11 2025
+# Process ID: 14789
+# Current directory: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/impl/ip/vivado.log
+# Journal file: /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/impl/ip/vivado.jou
+# Running On: fpga-tools, OS: Linux, CPU Frequency: 2893.202 MHz, CPU Physical cores: 16, Host memory: 135067 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1425.906 ; gain = 93.836 ; free physical = 37452 ; free virtual = 44561
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+Running package_xo -xo_path /home/ven_903/sobel-update2/scripts/sobel.xo -kernel_name sobel_accel -kernel_xml /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/impl/ip/../kernel/kernel.xml -kernel_files {/home/ven_903/sobel-update2/src/sobel.cpp /home/ven_903/sobel-update2/src/kernel.cpp} -ip_directory /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/impl/ip/ip_unzip_dir -design_xml /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/sobel_accel.design.xml -debug_directory /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.debug -hls_directory /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/impl/ip/hls_files -kernel_json /home/ven_903/sobel-update2/scripts/sobel_hls/solution1/solution1_data.json
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 21 01:09:55 2025...

@@ -1,0 +1,34 @@
+{
+  "0": {
+    "basicblocks": 11,
+    "calls": "1",
+    "file": "kernel.cpp",
+    "fileloc": 4,
+    "instructions": 61,
+    "loads": {
+      "L": 1,
+      "T": 1
+    },
+    "name": "sobel_accel",
+    "stores": {
+      "L": 1,
+      "T": 1
+    },
+    "total_instructions": 193
+  },
+  "1": {
+    "basicblocks": 14,
+    "calls": "",
+    "file": "sobel.cpp",
+    "fileloc": 4,
+    "instructions": 132,
+    "loads": {
+      "L": 11
+    },
+    "name": "sobel_filter",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 132
+  }
+}

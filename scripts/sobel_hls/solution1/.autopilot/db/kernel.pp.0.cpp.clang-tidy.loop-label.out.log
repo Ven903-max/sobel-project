@@ -1,0 +1,35 @@
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:1322:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:1322:7: note: FIX-IT applied suggested code changes
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:2296:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:2296:5: note: FIX-IT applied suggested code changes
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:2310:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:2310:5: note: FIX-IT applied suggested code changes
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:2324:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:2324:5: note: FIX-IT applied suggested code changes
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:3953:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:3953:7: note: FIX-IT applied suggested code changes
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:5896:9: warning: Added loop label VITIS_LOOP_19_1:   [xilinx-label-all-loops]
+        for(int c=0; c<512; c++) {
+        ^~~
+        VITIS_LOOP_19_1: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:5896:9: note: FIX-IT applied suggested code changes
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:5908:9: warning: Added loop label VITIS_LOOP_31_2:   [xilinx-label-all-loops]
+        for(int c=0; c<512; c++) {
+        ^~~
+        VITIS_LOOP_31_2: 
+/home/ven_903/sobel-update2/scripts/sobel_hls/solution1/.autopilot/db/kernel.pp.0.cpp:5908:9: note: FIX-IT applied suggested code changes

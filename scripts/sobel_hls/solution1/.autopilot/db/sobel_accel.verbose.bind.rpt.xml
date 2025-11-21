@@ -1,0 +1,49 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'sobel_accel'" level="0">
+<item name = "Date">Fri Nov 21 01:08:01 2025
+</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
+<item name = "Project">sobel_hls</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtexuplusHBM</item>
+<item name = "Target device">xcu280-fsvh2892-2L-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">3.33 ns, 2.639 ns, 0.90 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">786460, 786460, 2.619 ms, 2.619 ms, 262156, 262156, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="call_ln14_entry_proc_fu_92">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="grp_Loop_LoadLoop_proc_fu_99">Loop_LoadLoop_proc, 262155, 262155, 0.873 ms, 0.873 ms, 262155, 262155, no</column>
+<column name="grp_sobel_filter_fu_109">sobel_filter, 262150, 262150, 0.873 ms, 0.873 ms, 262150, 262150, no</column>
+<column name="grp_Loop_StoreLoop_proc_fu_115">Loop_StoreLoop_proc, 262153, 262153, 0.873 ms, 0.873 ms, 262153, 262153, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

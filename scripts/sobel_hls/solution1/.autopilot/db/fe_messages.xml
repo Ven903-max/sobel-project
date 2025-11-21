@@ -1,0 +1,76 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=in_img offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=out_img offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=in_img bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=out_img bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=linebuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=window complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="../src/kernel.cpp:14:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/ven_903/sobel-update2/scripts/fix_export.tcl:3:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=sobel_accel" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=in offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=out offset=slave bundle=gmem" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=in bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=out bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/kernel.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="../src/kernel.cpp:4:0" msg_body="A depth specification is required for MAXI interface port 'in' for cosimulation.">
+        <args Name="in"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="../src/kernel.cpp:4:0" msg_body="A depth specification is required for MAXI interface port 'out' for cosimulation.">
+        <args Name="out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/sobel.cpp:71:13" msg_body="Loop 'Compute' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Compute"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/sobel.cpp:72:34" msg_body="Loop 'VITIS_LOOP_72_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_72_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/sobel.cpp:6:0" msg_body="Unrolling loop 'Compute' (../src/sobel.cpp:71:13) in function 'sobel_filter' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/sobel.cpp:71:13" LoopName="Compute"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/sobel.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_72_1' (../src/sobel.cpp:72:34) in function 'sobel_filter' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/sobel.cpp:72:34" LoopName="VITIS_LOOP_72_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/sobel.cpp:25:13" msg_body="Applying array_partition to 'linebuf': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="linebuf"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+
