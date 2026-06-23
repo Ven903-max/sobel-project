@@ -1,4 +1,4 @@
-# Sobel Edge Detection Accelerator – Project Update 2
+# Sobel Edge Detection Accelerator 
 **Venkatesh Pandey
 
 ## 1. Project Description
