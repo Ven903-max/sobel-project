@@ -4,7 +4,7 @@
 ## 1. Project Description
 This project implements a Sobel edge-detection accelerator using Vitis HLS and targets FPGA hardware (Versal / U280). The accelerator processes grayscale image data and produces edge-detected output using Sobel gradient kernels (Gx and Gy) on the hardware pipeline.
 
-## 2. What I Completed in Update 2
+## 2. What I Completed in Update 
 - Set up Vitis HLS project environment.
 - Implemented Sobel accelerator kernel in C++.
 - Added AXI4-Stream and AXI-Lite interfaces for HLS synthesis.
